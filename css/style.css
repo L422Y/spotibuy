@@ -1,0 +1,92 @@
+body {
+    font-size: 13px;
+    font-family: "helvetica",serif;
+    margin: 0;
+    padding: 0;
+
+}
+#container {
+    position: fixed;
+    top:50px;
+    right: 0;
+    left: 0;
+    bottom:0;
+    background: #fff;
+}
+#tracklist {
+    position: relative;
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto;
+    display: table;
+}
+h1 {
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    box-sizing: content-box;
+    color: #eee;
+}
+h1 span {
+    display: table-cell;
+    padding: 0;
+}
+h1 :first-child {
+    text-align: left;
+    margin: 0 10px 0 0;
+}
+h1 :last-child {
+    text-align: right;
+    margin: 0 0px 0 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#tracklist > b,
+#tracklist > article >b {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#tracklist > article {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+#tracklist > article  pre {
+    font-size: 12px;
+    text-align: center;
+}
+
+#tracklist > div {
+    display: table-row;
+}
+
+#tracklist > div:nth-child(even) {
+    background-color: #eee;
+}
+
+#tracklist > div > span {
+    padding: 10px;
+    display: table-cell;
+}
+#tracklist > div > span.amazon {
+    text-align: right;
+}
+
+
+
+h1 {
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4c4c4c 0%, #7a7a7a 1%, #5b5b5b 67%, #666666 95%, #131313 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(1%,#7a7a7a), color-stop(67%,#5b5b5b), color-stop(95%,#666666), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4c4c4c 0%,#7a7a7a 1%,#5b5b5b 67%,#666666 95%,#131313 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4c4c4c 0%,#7a7a7a 1%,#5b5b5b 67%,#666666 95%,#131313 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4c4c4c 0%,#7a7a7a 1%,#5b5b5b 67%,#666666 95%,#131313 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4c4c4c 0%,#7a7a7a 1%,#5b5b5b 67%,#666666 95%,#131313 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
